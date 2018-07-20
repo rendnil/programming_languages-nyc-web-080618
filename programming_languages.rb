@@ -8,7 +8,8 @@ def reformat_languages(languages)
       new_hash[language] = attribute
     end
   end
-  
+
+=begin 
   ###adding the empty style key/value
   new_hash.each do |language, attributes|
       attributes[:style] = [ ]
@@ -25,7 +26,7 @@ def reformat_languages(languages)
     end    
   end
 end
-  
+=end  
   
   
   new_hash
